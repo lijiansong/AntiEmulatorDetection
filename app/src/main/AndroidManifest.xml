@@ -5,6 +5,15 @@
         android:label="@string/app_name"
         android:icon="@drawable/ic_launcher"
         android:theme="@style/AppTheme">
+        <meta-data
+            android:name="xposedmodule"
+            android:value="true" />
+        <meta-data
+            android:name="xposeddescription"
+            android:value="Xposed module hook the java api call to surpass the emulator detection" />
+        <meta-data
+            android:name="xposedminversion"
+            android:value="30" />
 
     </application>
 
